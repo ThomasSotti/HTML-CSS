@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Imagem Escala</title>
+</head>
+<body>
+    <h1>Imagem Grande, Média e Pequena.</h1>
+    <picture>
+        <source media="(max-width: 630px)" srcset="images/low.png" type="image/png">
+        <source media="(max-width: 1025px)" srcset="images/mid.png" type="image/png">
+        <img src="images/low.png" alt="Imagem Flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Aprendendo a reproduzir áudio em HTML5.</p>
+    <audio preload="metadata" controls>
+        <source src="midia/Sunshine Samba - Chris Haugen.mp3" type="audio/mpeg">
+        <!-- Tem como colocar audio/ogg e audio/wav também! -->
+    </audio>
+    <h1>Repdoução de Vídeo</h1>
+    <p>Aprendendo a reproduzir vídeos em HTML5.</p>
+
+    <video width="500" poster="images/low.png" controls>
+        <source src="midia/video.mp4" type="video/mp4">
+        <source src="midia/video.m4v" type="video/m4v">
+        <source src="midia/video.webm" type="video/webm">
+        <source src="midia/video.ogv" type="video/ogv">
+        <p>Seu navegador não tem compatibilidade com repdoução de vídeos!</p>
+    </video>
+
+    <h1>Vídeo do Youtube!</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

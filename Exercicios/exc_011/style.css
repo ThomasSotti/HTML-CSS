@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;600&display=swap');
+@font-face {
+    font-family: 'Nunito';
+    src: url(fonts/NunitoSans001.ttf) format('truetype'), url(fonts/NunitoSans002.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #D7F0E8;
+}
+
+.principal {
+    background-color: #376B8A;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: #D7F0E8;
+}
+
+.secundario {
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #376B8A;
+}
+
+.basico {
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #F26852;
+}
+
+.intermediario {
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #D25962;
+}
+
+.exemplo {
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #D25962;
+}
+
+div#d1 {
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    background-color: #376B8A;
+    text-indent: 20px;
+    color: #D7F0E8;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    color: #ffffff;
+    background-color: #D25962;
+    width: bolder;
+}
+
+p {
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-align: justify;
+    text-indent: 20px;
+    color: #1f2c4d;
+}
+
+
+a {
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+    color: #1f2c4d;
+}
+
+a:visited {
+    color: #291f4d;
+}
+
+a:hover {
+    color: #242e46;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #D25962;
+    font-weight: bold;
+}
+
+a::before {
+    content: '☛ ';;
+}
